@@ -75,3 +75,11 @@ export default App
 // => when the component renders intially / mounts the side_effect function will run + any time when the value / reference inside dependency_array changes it will run
 
 // useMemo hook -> This hook is used to remember / memoize the result of some expensive function call that you does not need to do in every re-render.
+
+// UseCallback 
+
+// useRef hook that is used to refer the "DOM elements" inside the react code using ref attribute that will be given to that element to whom we want to refer + 
+// allows you to persist the value of variables between re-renders (react way to ref the DOM elements) , 
+
+
+// "donot do old school dom manipulation inside react application"
